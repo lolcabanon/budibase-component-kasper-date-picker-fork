@@ -159,7 +159,7 @@
       {max}
       {placeholder}
       defaultDate={defaultValue}
-      disabled={fieldState.disabled}
+      disabled={fieldState?.disabled ?? disabled}
       locale={kasperLocale}
       {dfLocale}
       {format}
